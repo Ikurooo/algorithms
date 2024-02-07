@@ -34,7 +34,7 @@ the slow pointer.
 # Code
 ```python
 class Solution:
-    def remove_element(nums, val):
+    def removeElement(self, nums, val):
         slow = 0
         for num in nums:
             if num != val:
