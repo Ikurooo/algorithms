@@ -21,7 +21,7 @@ then swapping in the new element.
 
 # Approach
 Using a for-loop to iterate over each element of the array and checking if it does NOT
-equal the 'val', and if so then we copy the num at the fast pointer increment
+equal the 'num', and if so then we copy the num at the fast pointer increment
 the slow pointer.
 
 # Complexity
