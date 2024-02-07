@@ -1,3 +1,12 @@
+# Question
+Given an array of integers citations where citations[i] is the number of
+citations a researcher received for their ith paper, return the researcher's
+h-index.
+
+According to the definition of <a href="https://en.wikipedia.org/wiki/H-index">h-index on Wikipedia</a>: The h-index is defined as
+the maximum value of h such that the given researcher has published at least h
+papers that have each been cited at least h times.
+
 # Intuition
 For us to be able to find an index that is greater than the amount of books that have at least that many citations we need some sort of order in the array, so that we can compare the number of citations to the number of books that have been cited at least n times, n being the index in the sorted array.
 
