@@ -21,7 +21,7 @@ fast pointer being just the for-loop iterator
 
 # Approach
 Using a for-loop to iterate over each element of the array and checking if it does NOT
-equal the 'val', and if so then we copy the num at the fast pointer increment
+equal the 'val', and if so then we copy the num at the fast pointer increment and
 the slow pointer.
 
 # Complexity
@@ -41,5 +41,4 @@ class Solution:
                 nums[slow] = num
                 slow += 1
         return slow
-
 ```
